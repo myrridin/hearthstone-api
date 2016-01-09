@@ -12,3 +12,7 @@ VCR.configure do |config|
     config.filter_sensitive_data('<REAL MASHAPE KEY GOES HERE>') { ENV['HEARTHSTONE_API_KEY'] }
   end
 end
+
+RSpec.configure do |config|
+  config.default_formatter = 'progress'
+end
