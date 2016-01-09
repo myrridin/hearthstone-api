@@ -19,11 +19,13 @@ module HearthstoneApi
 
     def fetch_json(endpoint, params = {})
       url = "#{BASE_ENDPOINT}#{endpoint}?#{URI.encode_www_form(params)}"
+
       begin
         res = RestClient.get url, {'X-Mashape-Key' => api_key}
       rescue RestClient::Forbidden
         raise HearthstoneApi::KeyError.new "403 forbidden. Please check your Mashape API key. Current key #{api_key}"
       end
+
       JSON.parse(res)
     end
   end
