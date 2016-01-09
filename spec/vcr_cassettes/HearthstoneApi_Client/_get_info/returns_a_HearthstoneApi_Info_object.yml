@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/info
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Mashape-Key:
+      - "<REAL MASHAPE KEY GOES HERE>"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 09 Jan 2016 04:30:53 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IlBraTNpUkFcL05RRDRKQWNndXRETGVBPT0iLCJ2YWx1ZSI6Imt2cEtsUEpEVHU4OER6MnVwWkdZQll0bXQ5Nlg0Y2FoXC91QXZJUEF6dVRGVzRpRnR5c3AwVW1OblphXC9KQkVldTBWdllEZ0wxRXNDR1JKK0tpYXdcLzlnPT0iLCJtYWMiOiJiNWY1NjFiYjJhMDJmMWZkNzc1MDViMzhhOGZjNzY0ZGVkOGVkZjczMzY3MmU2MGVlMjdlODljNzEzNzI1MGZmIn0%3D;
+        expires=Sat, 09-Jan-2016 06:30:53 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6InJwdmFcL0VQTlg0V1drcXA2TVZNK3N3PT0iLCJ2YWx1ZSI6Im9iT0pjR2d5TVBUOGNLSTNZVzQzdHdaSTA5WmxNKys4aXROYXFSQ3BsUk1xMmRBV3FPTE8yRWg2bmVCOWpKY1N0Z2xsWUMrR011S0QzU3p4a0RkV213PT0iLCJtYWMiOiI3YmFlYjQ2ZTA0MDk4NzcyZGJlODUyNzE3MTFhMGIxZWViMzZmNWMxYTRlYTY1NjVmYmM2OWFiMjhmZWNiNzdjIn0%3D;
+        expires=Sat, 09-Jan-2016 06:30:53 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '685'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"patch":"4.1.0.10956","classes":["Druid","Hunter","Mage","Paladin","Priest","Rogue","Shaman","Warlock","Warrior","Dream"],"sets":["Basic","Classic","Credits","Naxxramas","Debug","Goblins
+        vs Gnomes","Missions","Promotion","Reward","System","Blackrock Mountain","Hero
+        Skins","Tavern Brawl","The Grand Tournament","The League of Explorers"],"types":["Hero","Minion","Spell","Enchantment","Weapon","Hero
+        Power"],"factions":["Horde","Alliance","Neutral"],"qualities":["Free","Common","Rare","Epic","Legendary"],"races":["Demon","Dragon","Mech","Murloc","Beast","Pirate","Totem"],"locales":["deDE","enGB","enUS","esES","esMX","frFR","itIT","koKR","plPL","ptBR","ruRU","zhCN","zhTW","jaJP"]}'
+    http_version: 
+  recorded_at: Sat, 09 Jan 2016 04:30:52 GMT
+recorded_with: VCR 3.0.1

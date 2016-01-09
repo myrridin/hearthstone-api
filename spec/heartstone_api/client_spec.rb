@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe HearthstoneApi::Client do
+RSpec.describe HearthstoneApi::Client, :vcr do
   let(:client) { HearthstoneApi::Client.new }
 
   it 'can initialize itself' do
