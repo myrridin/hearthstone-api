@@ -25,7 +25,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sat, 09 Jan 2016 16:29:10 GMT
+      - Sat, 09 Jan 2016 16:29:12 GMT
       Expires:
       - "-1"
       Pragma:
@@ -33,10 +33,10 @@ http_interactions:
       Server:
       - Mashape/5.0.6
       Set-Cookie:
-      - XSRF-TOKEN=eyJpdiI6InNWWkVYakVcLzB5dFJHZktFOHNaV3VRPT0iLCJ2YWx1ZSI6Ijc3ZUd4NnVlMmhXMW83akZDdENFMEVLOEErc2pSWDl4NHdvb292YzdqdDJJOHZIc1N4TVp2MlR0UXRINk42NTZHaW9uczc2eTFZeW1GUCswMFA4b0lnPT0iLCJtYWMiOiIwNjc4MjdiMzZjMDk0MDA3MGFkOGVjY2NkM2I2YjhiYzRjNGFiMWU5NGFkZThhOTczODg2YmYwZDQ4MjgwZWE3In0%3D;
-        expires=Sat, 09-Jan-2016 18:29:10 GMT; Max-Age=7200; path=/
-      - laravel_session=eyJpdiI6InhPUDBDS3Qxa3QrZWR3OVRwUGlKMmc9PSIsInZhbHVlIjoiWGxCSVBGS2xGc2Q0Wmt4b3EyVHN3MjdqUEhucWIwc0RiT3RQb2pEWDhXVGpJOVJGNnh6aHQ5TWR4OUk0QWVLc1wvNFdhU1U1TmFDRTZUdjRqRkNVYmtnPT0iLCJtYWMiOiI4ZWY5MTA1ZTM2M2VlNjUxNGQ5OTAyOGE4YWY3YzQ0YzM4NDNmODQ5ZjAxMzQ2MjlmNmZhOTdkOWVmMzUyOTdkIn0%3D;
-        expires=Sat, 09-Jan-2016 18:29:10 GMT; Max-Age=7200; path=/; httponly
+      - XSRF-TOKEN=eyJpdiI6IjV6dXN1Um16bEhTMkFXS3Awb0J2bWc9PSIsInZhbHVlIjoiQnZwZVFjT0lwSTI5M1h5SkNzUlI4OHJXWXZFaUh6N3J2bVlCMEQ1SVBFNjBmWGdRdWM5XC8zaDd3eEdZSjRVeGc5MVluQ1ZQZ3E4VGM4bHhIWTRLbVpBPT0iLCJtYWMiOiI2Yjk4MmM5MDZiOTAyYmQ2MmJmNWQ1YTQyOTQ5MGI5NDc4NmZmMTc5NTlhN2M5ZDY3MGE2NDU2ZTU5YzdlNzJjIn0%3D;
+        expires=Sat, 09-Jan-2016 18:29:12 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6InoyeE1SWklIYmp1MVFBQ1ROWlJvTHc9PSIsInZhbHVlIjoibnhMeER4RmVKQkZ3azJPNGFiTUs4dHVqeWVTNkVDT1pCTUwzcmh0b0dhcGNmUWJIZFVJcCtIV2FQaCtpTkRGdkw4dDkyalRtRitNdVh0QlwvQk11ZWVRPT0iLCJtYWMiOiIzNzYwYzEzM2FhMzc1YjRhMWM0NjQ3MzU3NDkyOTc4M2RkMjJmZmRkZDE1ZjE3ZDI1OGY2Mzc0YmIzYjBmMDAwIn0%3D;
+        expires=Sat, 09-Jan-2016 18:29:12 GMT; Max-Age=7200; path=/; httponly
       X-Powered-By:
       - PHP/5.6.13
       Content-Length:
@@ -50,5 +50,5 @@ http_interactions:
         Skins","Tavern Brawl","The Grand Tournament","The League of Explorers"],"types":["Hero","Minion","Spell","Enchantment","Weapon","Hero
         Power"],"factions":["Horde","Alliance","Neutral"],"qualities":["Free","Common","Rare","Epic","Legendary"],"races":["Demon","Dragon","Mech","Murloc","Beast","Pirate","Totem"],"locales":["deDE","enGB","enUS","esES","esMX","frFR","itIT","koKR","plPL","ptBR","ruRU","zhCN","zhTW","jaJP"]}'
     http_version: 
-  recorded_at: Sat, 09 Jan 2016 16:29:11 GMT
+  recorded_at: Sat, 09 Jan 2016 16:29:12 GMT
 recorded_with: VCR 3.0.1

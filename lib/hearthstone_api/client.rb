@@ -13,8 +13,12 @@ module HearthstoneApi
     end
 
     def get_info
-      json = fetch_json('info')
-      HearthstoneApi::Info.from_json(json)
+      HearthstoneApi::Info.from_json(fetch_json('info'))
+    end
+
+    def find_cards(name, collectible: false, locale: 'enUS')
+      json = fetch_json("cards/#{name}", {collectible: collectible, locale: locale})
+      json.map { |el| HearthstoneApi::Card.from_json(el) }
     end
 
     def fetch_json(endpoint, params = {})
@@ -22,6 +26,10 @@ module HearthstoneApi
 
       begin
         res = RestClient.get url, {'X-Mashape-Key' => api_key}
+      rescue RestClient::ResourceNotFound => e
+        msg = JSON.parse(e.http_body)['message'] rescue nil
+        return [] if msg =~ /not found/
+        raise HearthstoneApi::EndpointError.new 'That endpoint does not seem to exist.'
       rescue RestClient::Forbidden
         raise HearthstoneApi::KeyError.new "403 forbidden. Please check your Mashape API key. Current key #{api_key}"
       end

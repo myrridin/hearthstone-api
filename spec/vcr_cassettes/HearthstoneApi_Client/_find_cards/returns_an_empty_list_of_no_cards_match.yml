@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/WHOWOULDEVERNAMEACARDTHIS?collectible=false&locale=enUS
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Mashape-Key:
+      - "<REAL MASHAPE KEY GOES HERE>"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 09 Jan 2016 16:29:11 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IjU0MzJvQ1FrU1VUTHlLU1k0dmw1Y1E9PSIsInZhbHVlIjoiTmNvM053TG81S2dhWHVVY2lEQVE3Q1lEcWJcL0hjV2RwTkY1b2E5T05RbzlndlNPbXlHZlVzN0c3V3k2WkFLR0hTY094a2pEXC9JRmdJamxuUE9lakJYZz09IiwibWFjIjoiZTk0YWI5ZjMxNjNiNDEyM2ZmYjc3MDE4YWNkOTA5MjViNGQ4MTBlYmU1MmUyZmQxZGRkMDg5OTcyNGI1YTU4ZSJ9;
+        expires=Sat, 09-Jan-2016 18:29:11 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6ImpGQnJXTU85NzVFbXBlamFucWhZM3c9PSIsInZhbHVlIjoiRFVYMUZpcTE1b2hQQ0srV3hWbmVtS1ZkaEJcL0EyVzBOcUdZRHVwTitRNUJ2aXNpTW1kbEl2MGZFR3hcL1hSd0RQQjY1RkhBVjFaSXpPQ1pKTlQ0ZFdIdz09IiwibWFjIjoiNzc0MzBkYWM3OTgxMjRmOWY1ZDA2ZjQwYjY3N2Q3NGFjMDhmODYxZDU4NTc4Njc5ZTNmMzViNGY2NTY1NGQ5NCJ9;
+        expires=Sat, 09-Jan-2016 18:29:11 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '41'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error":404,"message":"Card not found."}'
+    http_version: 
+  recorded_at: Sat, 09 Jan 2016 16:29:12 GMT
+recorded_with: VCR 3.0.1

@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/Ysera?collectible=false&locale=enUS
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      X-Mashape-Key:
+      - "<REAL MASHAPE KEY GOES HERE>"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 09 Jan 2016 16:29:11 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IkIxSDZrZ3NnMmE1cWZFYk1EQkhjeFE9PSIsInZhbHVlIjoiRmRtVGYyS3pMUlBHaXZKVnJqcTY5K3Z6WVhlWTBQa0g0bHRBWnQ1TmxHeFFTZFl1c1Z6WjJBMHBcL0pETlwvKzRTWTlabHdYbVwvd1BPd0xHMTN3cGRkSEE9PSIsIm1hYyI6ImJiYzhkMGQ4MWViN2UzOTcxMTUxMjlkNjg5YjhjOTQ2OGQxMjMzMjc5YzE4YjA2ZWQ0NWQwZmEzNmExNDZhOGYifQ%3D%3D;
+        expires=Sat, 09-Jan-2016 18:29:11 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IlBuRVwvdHp0NE42YlFcL0NKaEpMQjd4UT09IiwidmFsdWUiOiJPU1l5WVZXUHBaeDZlSWQrbFM3VTZ0NjBDVDZ6cytobmpjZEVoS2dSWlFWUDA4bklkSUVGVTRMZGswOUdwYmFxU3FWZjh6RTJMZ05aUEUxZUl6M1E1Zz09IiwibWFjIjoiNGU2MDYxZjc0NTM3Y2Y2ZWY0NmU0MTEzNmU5N2JiNDU2YWVmMzNiYzBmZmYxYmJmYTlmODczM2E0NDJjYmE1YSJ9;
+        expires=Sat, 09-Jan-2016 18:29:11 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '594'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"EX1_572","name":"Ysera","cardSet":"Classic","type":"Minion","faction":"Neutral","rarity":"Legendary","cost":9,"attack":4,"health":12,"text":"At
+        the end of your turn, add a Dream Card to your hand.","flavor":"Ysera rules
+        the Emerald Dream.  Which is some kind of green-mirror-version of the real
+        world, or something?","artist":"Gabor Szikszai","collectible":true,"elite":true,"race":"Dragon","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_572.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_572_premium.gif","locale":"enUS"}]'
+    http_version: 
+  recorded_at: Sat, 09 Jan 2016 16:29:11 GMT
+recorded_with: VCR 3.0.1
